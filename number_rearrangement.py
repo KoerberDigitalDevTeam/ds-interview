@@ -1,8 +1,8 @@
 """
 - Please, write a function that takes an integer as an input and prints its digits in ascending order
   (examples are given below)
-  a) Please, do not use a built-in sorting function
-  b) Feel free to use a  built-in sorting function
+  a) Feel free to use a  built-in sorting function
+  b) Please, do not use a built-in sorting function
 - Adjust both your functions such that every digit appears at most once in the result
 
 
