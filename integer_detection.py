@@ -1,10 +1,10 @@
 """
-You are given a list that solely contains integers or list. The same is true for the member lists, thus this nesting
-can be arbitrarily deep (but finite of course). Examples are given below, it might help to think of this as some
-kind of tree.
+You are given a list. The members of this list are integers and lists. Each of the member lists contains integers and
+lists and so on. This nesting can be arbitrarily deep and the number of both integers and lists within a list is
+unrestricted.
 
-- Please, write a function that generates a list. Each member of this list is a tuple of an integer and its
-  depth in the nested list (tree). The list must contain one tuple for each integer in the tree.
+- Please, write a function that generates a list. Each member of this list is a tuple of depth and the integer itself
+  in the nested list. The list must contain one tuple for each integer in the tree.
 
 
 Examples:
